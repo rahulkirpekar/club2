@@ -1,0 +1,42 @@
+Monday -  3 to 4 
+Tuesday - 2 to 4
+Wednesday - 2 to 4 
+Friday - 3 to 4 
+
+
+
+Array Limitations :- Collection Framework
+--------------------
+
+	1) SIZE
+	2) type
+
+int a[] = new int[5];
+
+Collection Hierarchy
+
+			Object
+			  |
+			Iterable-(I)----------------------
+			   |			     |
+			Collection(I)		     |	
+			    |--java.util.*	     |	
+----------------------------------------	     |	
+  |		  |		  |		     |	
+List(I)		Set(I)		Queue(I)	---> Map(I)<---interfaces
+ |		 |		  |		      |	
+AbstractList AbstractSet     AbstractQueue	  AbstractMap<--AbstractClass
+ |		 |		  |		      |	
+ArrayList(C)	HashSet(C)	PriorityQueue(C) - HashMap(C)
+LinkedList(C)	LinkedHashSet(C)		 - LinkedHashMap(C)	
+Vector(C)	TreeSet(C)			 - TreeMap(C)
+
+
+
+List(I)	 Features:-
+--------------------
+1) To store duplicate values 
+2) can access random value by index 
+3) dynamic Array
+4) can access and store value in pertcular popsition by index
+		
